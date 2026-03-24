@@ -2,7 +2,7 @@ import streamlit as st
 
 # Заглавие на приложението
 st.set_page_config(page_title="Животинска Галерия", layout="wide")
-st.title("🐾 Галерия от любими животни")
+st.title("Галерия от любими животни")
 
 # Инициализация на състоянието (session state)
 if "animals" not in st.session_state:
